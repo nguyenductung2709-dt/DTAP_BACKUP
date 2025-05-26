@@ -1,0 +1,16 @@
+{
+  "name": "minimal-express-server",
+  "version": "1.0.0",
+  "description": "A minimal Express server setup",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
