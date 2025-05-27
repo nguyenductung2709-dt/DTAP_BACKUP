@@ -26,7 +26,7 @@ app.post('/start', async (req, res) => {
     }
     const dataPoint = {
         deviceId,
-        value: 70,
+        value: Math.floor(Math.random() * 6) + 75,
     };
     try {
         const response = await axios.put('https://lambda.proto.aalto.fi/api/datapoints', dataPoint);
